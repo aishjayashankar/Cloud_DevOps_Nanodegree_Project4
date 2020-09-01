@@ -1,4 +1,6 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/aishjayashankar/
+Cloud_DevOps_Nanodegree_Project4.svg?style=svg)](https://circleci.com/gh/aishjayashankar/
+Cloud_DevOps_Nanodegree_Project4)
 
 ## Project Overview
 
