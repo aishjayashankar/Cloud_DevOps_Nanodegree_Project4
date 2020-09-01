@@ -35,3 +35,19 @@ Your project goal is to operationalize this working, machine learning microservi
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Files included
+
+.circleci - CircleCI config scripts
+model_data - ML model related data (model, csv data)
+output_txt_files - Project output files (docker, kubernetes)
+docker_out.txt - run_docker.sh output
+kubernetes_out.txt - run_kubernetes.sh output
+app.py - Python web application 
+Dockerfile - Docker image config
+make_prediction.sh - Make prediction HTTP call script
+Makefile - make file (install, test, lint steps)
+requirements.txt - Web application dependencies to be installed (python, libraries)
+run_docker.sh - Run docker container script
+run_kubernetes.sh - Run kubernetes pod for the web app script
+upload_docker.sh - Upload docker image to docker hub script (Here: aishwaryajayashankar/udacity-machine-learning)
